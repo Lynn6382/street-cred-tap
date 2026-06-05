@@ -36,6 +36,10 @@ export default function RootLayout({
     >
       <head>
         <meta name="base:app_id" content="6a229eff2280de924021e2ac" />
+        <meta
+          name="talentapp:project_verification"
+          content="28f6b9e8326907a5d3a80ed998957deef817dc5cb7ebf37c317e952754c791e4d93b598daa06b0edc3e5ed31ddac82b8ecf11a61eda2d1a14de21969d4500864"
+        />
       </head>
       <body>
         <Providers>{children}</Providers>
