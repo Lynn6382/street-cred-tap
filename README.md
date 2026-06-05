@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Street Cred Tap
 
-## Getting Started
+Street Cred Tap is a minimal Base Mini App for one onchain action: tapping a counter.
 
-First, run the development server:
+- No token
+- No rewards
+- No invites
+- No usage limits
+- Users only pay Base gas
+- Wallet support through Wagmi native connectors: injected wallets and Coinbase Wallet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Stack
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- Wagmi
+- Viem
+
+## Base Attribution
+
+Offchain attribution requires a hardcoded tag in `app/layout.tsx`:
+
+```tsx
+<meta name="base:app_id" content="replace-with-base-dev-verify-token" />
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Replace the placeholder with the `base.dev` Verify token before the first Vercel deployment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Onchain attribution requires the Builder Code after `base.dev` verification. Set it as:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+NEXT_PUBLIC_BASE_BUILDER_CODE=bc_xxxxxx
+```
 
-## Learn More
+The app passes `dataSuffix` both in `lib/wagmi.ts` and explicitly in every `writeContract` call.
 
-To learn more about Next.js, take a look at the following resources:
+## Contract
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The Solidity source is in `contracts/StreetCredTap.sol`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+After deployment on Base mainnet, set:
 
-## Deploy on Vercel
+```bash
+NEXT_PUBLIC_STREET_CRED_TAP_ADDRESS=0xYourContract
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Local Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+## Deployment Checklist
+
+1. Deploy `StreetCredTap.sol` to Base mainnet.
+2. Replace `base:app_id` in `app/layout.tsx`.
+3. Set Vercel environment variables from `.env.example`.
+4. Deploy to Vercel.
+5. Register and verify the app on `base.dev`.
+6. Get the Builder Code.
+7. Set `NEXT_PUBLIC_BASE_BUILDER_CODE`.
+8. Redeploy.
+9. Confirm Basescan transaction input ends with the encoded Builder Code suffix.
+10. Confirm offchain and onchain data in the `base.dev` dashboard.
