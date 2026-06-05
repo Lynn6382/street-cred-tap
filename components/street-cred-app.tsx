@@ -15,6 +15,11 @@ import { streetCredTapAbi } from "@/lib/abi";
 import { ATTRIBUTION_DATA_SUFFIX, BUILDER_CODE, hasBuilderCode } from "@/lib/attribution";
 import { STREET_CRED_TAP_ADDRESS, isContractConfigured } from "@/lib/contracts";
 
+const APP_URL = "https://street-cred-tap.vercel.app";
+const OKX_DEEPLINK = `https://www.okx.com/download?deeplink=${encodeURIComponent(
+  APP_URL,
+)}`;
+
 const formatCount = (value: bigint | undefined) =>
   new Intl.NumberFormat("en-US").format(Number(value ?? 0n));
 
@@ -281,6 +286,13 @@ export function StreetCredApp() {
                   </span>
                 </button>
               ))}
+              <a
+                href={OKX_DEEPLINK}
+                className="flex items-center justify-between border-2 border-[#0052ff] bg-[#0052ff] px-4 py-4 text-left text-white transition hover:bg-[#003fca]"
+              >
+                <span className="text-lg font-black uppercase">Open in OKX Wallet</span>
+                <span className="text-xs font-black uppercase text-white/80">Mobile</span>
+              </a>
             </div>
             <button
               type="button"
