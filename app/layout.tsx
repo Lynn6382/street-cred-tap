@@ -35,7 +35,7 @@ export default function RootLayout({
       className={`${anton.variable} ${inter.variable} ${geistMono.variable}`}
     >
       <head>
-        <meta name="base:app_id" content="replace-with-base-dev-verify-token" />
+        <meta name="base:app_id" content="6a229eff2280de924021e2ac" />
       </head>
       <body>
         <Providers>{children}</Providers>
