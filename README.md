@@ -94,3 +94,11 @@ Use `.env.example` as the reference for required environment configuration.
 ## Base Attribution
 
 Offchain attribution requires a hardcoded app identifier in `app/layout.tsx`.
+
+Update the metadata value before the first Vercel deployment:
+
+```tsx
+<meta name="base:app_id" content="replace-with-base-dev-value" />
+```
+
+Onchain attribution requires the Builder Code after the app has been verified through `base.dev`.
