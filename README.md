@@ -13,3 +13,12 @@ StreetCredTap is designed around a single contract interaction.
 There are no rewards, invites, or usage limits built into the app.
 
 Users only pay the Base network gas required for their transaction.
+
+Wallet support is provided through Wagmi native connectors, including injected wallets and Coinbase Wallet.
+
+## Features
+
+- Minimal Base Mini App experience
+- One primary onchain action: tap a counter
+- Next.js App Router structure
+- TypeScript project setup
