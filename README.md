@@ -22,3 +22,10 @@ Wallet support is provided through Wagmi native connectors, including injected w
 - One primary onchain action: tap a counter
 - Next.js App Router structure
 - TypeScript project setup
+- Tailwind CSS styling
+- Wagmi wallet integration
+- Viem contract interaction support
+- Base attribution support through app metadata and Builder Code
+- Solidity contract included in the repository
+
+## Tech Stack
