@@ -38,3 +38,11 @@ Wallet support is provided through Wagmi native connectors, including injected w
 - Solidity
 
 ## Project Structure
+
+The Solidity contract source is located at:
+
+`contracts/StreetCredTap.sol`
+
+The Base app metadata is configured in:
+
+`app/layout.tsx`
