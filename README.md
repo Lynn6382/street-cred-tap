@@ -136,3 +136,11 @@ Redeploy the app after changing environment variables.
 
 1. Deploy `StreetCredTap.sol` to Base mainnet.
 2. Replace the `base:app_id` value in `app/layout.tsx`.
+3. Set the required Vercel environment variables from `.env.example`.
+4. Deploy the app to Vercel.
+5. Register and verify the app on `base.dev`.
+6. Retrieve the Builder Code.
+7. Set `NEXT_PUBLIC_BASE_BUILDER_CODE`.
+8. Redeploy the app.
+9. Confirm that the Basescan transaction input ends with the encoded Builder Code suffix.
+10. Confirm offchain and onchain attribution data in the `base.dev` dashboard.
