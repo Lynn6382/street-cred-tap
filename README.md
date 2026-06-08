@@ -128,3 +128,11 @@ Redeploy the app after changing environment variables.
 1. Open the app.
 2. Connect a supported wallet.
 3. Tap the counter.
+4. Confirm the transaction in the wallet.
+5. Wait for the Base transaction to complete.
+6. View the updated tap state in the app.
+
+## Deployment Checklist
+
+1. Deploy `StreetCredTap.sol` to Base mainnet.
+2. Replace the `base:app_id` value in `app/layout.tsx`.
