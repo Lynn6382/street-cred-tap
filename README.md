@@ -54,3 +54,11 @@ Wagmi configuration is handled in:
 Environment variables should be based on:
 
 `.env.example`
+
+## Local Development
+
+Install dependencies:
+
+```bash
+npm install
+```
