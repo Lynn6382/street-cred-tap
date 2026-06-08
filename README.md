@@ -102,3 +102,11 @@ Update the metadata value before the first Vercel deployment:
 ```
 
 Onchain attribution requires the Builder Code after the app has been verified through `base.dev`.
+
+The app passes `dataSuffix` in `lib/wagmi.ts` and also explicitly in each `writeContract` call.
+
+This ensures the Builder Code suffix is included with the relevant onchain transactions.
+
+## Contract Deployment
+
+Deploy the contract located at:
