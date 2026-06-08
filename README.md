@@ -87,3 +87,10 @@ After completing Base verification and receiving a Builder Code, set:
 
 ```bash
 NEXT_PUBLIC_BASE_BUILDER_CODE=bc_xxxxxx
+```
+
+Use `.env.example` as the reference for required environment configuration.
+
+## Base Attribution
+
+Offchain attribution requires a hardcoded app identifier in `app/layout.tsx`.
