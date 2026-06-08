@@ -110,3 +110,13 @@ This ensures the Builder Code suffix is included with the relevant onchain trans
 ## Contract Deployment
 
 Deploy the contract located at:
+
+`contracts/StreetCredTap.sol`
+
+Deploy it to Base mainnet.
+
+After deployment, copy the deployed contract address and set:
+
+```bash
+NEXT_PUBLIC_STREET_CRED_TAP_ADDRESS=0xYourContract
+```
