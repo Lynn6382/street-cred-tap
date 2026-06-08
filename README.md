@@ -120,3 +120,11 @@ After deployment, copy the deployed contract address and set:
 ```bash
 NEXT_PUBLIC_STREET_CRED_TAP_ADDRESS=0xYourContract
 ```
+
+Redeploy the app after changing environment variables.
+
+## Usage
+
+1. Open the app.
+2. Connect a supported wallet.
+3. Tap the counter.
