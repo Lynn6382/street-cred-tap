@@ -46,3 +46,11 @@ The Solidity contract source is located at:
 The Base app metadata is configured in:
 
 `app/layout.tsx`
+
+Wagmi configuration is handled in:
+
+`lib/wagmi.ts`
+
+Environment variables should be based on:
+
+`.env.example`
