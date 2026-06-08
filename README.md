@@ -29,3 +29,12 @@ Wallet support is provided through Wagmi native connectors, including injected w
 - Solidity contract included in the repository
 
 ## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- Wagmi
+- Viem
+- Solidity
+
+## Project Structure
