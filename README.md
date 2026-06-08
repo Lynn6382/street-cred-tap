@@ -70,3 +70,11 @@ npm run dev
 ```
 
 Open the app in your browser:
+
+```text
+http://localhost:3000
+```
+
+## Environment Variables
+
+After deploying the contract on Base mainnet, set the contract address:
