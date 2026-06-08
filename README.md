@@ -78,3 +78,12 @@ http://localhost:3000
 ## Environment Variables
 
 After deploying the contract on Base mainnet, set the contract address:
+
+```bash
+NEXT_PUBLIC_STREET_CRED_TAP_ADDRESS=0xYourContract
+```
+
+After completing Base verification and receiving a Builder Code, set:
+
+```bash
+NEXT_PUBLIC_BASE_BUILDER_CODE=bc_xxxxxx
