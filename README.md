@@ -152,3 +152,11 @@ StreetCredTap is intentionally simple.
 The app does not include extra mechanics beyond the tap action.
 
 Any contract address, Base app identifier, or Builder Code value should be reviewed before production deployment.
+
+Confirm that the deployed frontend and the deployed contract are configured for the same Base network.
+
+When changing attribution settings, redeploy the app and test with a new transaction.
+
+## License
+
+No license information is provided in the original project documentation.
