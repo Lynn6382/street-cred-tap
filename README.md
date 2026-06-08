@@ -144,3 +144,11 @@ Redeploy the app after changing environment variables.
 8. Redeploy the app.
 9. Confirm that the Basescan transaction input ends with the encoded Builder Code suffix.
 10. Confirm offchain and onchain attribution data in the `base.dev` dashboard.
+
+## Notes
+
+StreetCredTap is intentionally simple.
+
+The app does not include extra mechanics beyond the tap action.
+
+Any contract address, Base app identifier, or Builder Code value should be reviewed before production deployment.
