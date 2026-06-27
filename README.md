@@ -121,3 +121,13 @@ NEXT_PUBLIC_STREET_CRED_TAP_ADDRESS=0xYourContract
 ```
 
 For Base onchain attribution, also configure:
+
+```bash
+NEXT_PUBLIC_BASE_BUILDER_CODE=bc_xxxxxx
+```
+
+## Local Development
+
+Install dependencies:
+
+```bash
