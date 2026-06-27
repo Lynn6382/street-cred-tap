@@ -131,3 +131,11 @@ NEXT_PUBLIC_BASE_BUILDER_CODE=bc_xxxxxx
 Install dependencies:
 
 ```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
