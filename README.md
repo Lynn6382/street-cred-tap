@@ -149,3 +149,13 @@ http://localhost:3000
 ## Usage
 
 Connect a supported wallet.
+
+Make sure the wallet is connected to Base.
+
+Tap the counter.
+
+Confirm the transaction in the wallet.
+
+After confirmation, the tap is recorded onchain by the deployed `StreetCredTap` contract.
+
+## Deployment
