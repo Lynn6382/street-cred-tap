@@ -178,3 +178,13 @@ Before deploying, make sure the contract has been deployed to Base mainnet and t
 10. Confirm offchain and onchain data in the `base.dev` dashboard.
 
 ## Notes
+
+StreetCredTap is intentionally small and direct.
+
+It does not include rewards, invites, or app-level usage limits.
+
+The primary purpose of the app is to demonstrate a clean Base Mini App flow for a single onchain tap action.
+
+When changing write interactions, keep the Builder Code suffix behavior intact so onchain attribution continues to work.
+
+When changing app metadata, keep the Base attribution metadata in place so offchain attribution continues to work.
