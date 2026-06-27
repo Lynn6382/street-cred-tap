@@ -139,3 +139,13 @@ Start the development server:
 ```bash
 npm run dev
 ```
+
+Open the app in your browser:
+
+```text
+http://localhost:3000
+```
+
+## Usage
+
+Connect a supported wallet.
