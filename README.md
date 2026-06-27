@@ -169,3 +169,12 @@ Before deploying, make sure the contract has been deployed to Base mainnet and t
 1. Deploy `StreetCredTap.sol` to Base mainnet.
 2. Replace the `base:app_id` placeholder in `app/layout.tsx`.
 3. Set Vercel environment variables from `.env.example`.
+4. Deploy the app to Vercel.
+5. Register and verify the app on `base.dev`.
+6. Get the Builder Code.
+7. Set `NEXT_PUBLIC_BASE_BUILDER_CODE`.
+8. Redeploy the app.
+9. Confirm the Basescan transaction input ends with the encoded Builder Code suffix.
+10. Confirm offchain and onchain data in the `base.dev` dashboard.
+
+## Notes
