@@ -83,3 +83,13 @@ Set the Builder Code as an environment variable:
 ```bash
 NEXT_PUBLIC_BASE_BUILDER_CODE=bc_xxxxxx
 ```
+
+The app passes `dataSuffix` in `lib/wagmi.ts`.
+
+The app also passes `dataSuffix` explicitly in every `writeContract` call.
+
+## Contract
+
+The Solidity contract source is included at:
+
+```text
