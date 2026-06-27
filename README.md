@@ -63,3 +63,14 @@ lib/wagmi.ts
 ```
 
 ## Base Attribution
+
+StreetCredTap supports Base attribution for both offchain and onchain activity.
+
+For offchain attribution, the app includes a hardcoded metadata value in `app/layout.tsx`.
+
+Before the first Vercel deployment, replace the placeholder value in the `base:app_id` metadata entry with the value provided by `base.dev`.
+
+Example:
+
+```tsx
+<meta name="base:app_id" content="replace-with-base-dev-verify-value" />
