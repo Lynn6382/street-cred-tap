@@ -111,3 +111,13 @@ Create a local environment file based on the example file:
 ```bash
 cp .env.example .env.local
 ```
+
+Then set the required values.
+
+At minimum, configure the deployed contract address:
+
+```bash
+NEXT_PUBLIC_STREET_CRED_TAP_ADDRESS=0xYourContract
+```
+
+For Base onchain attribution, also configure:
