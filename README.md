@@ -26,3 +26,13 @@ It is designed to be easy to read, easy to deploy, and easy to verify through Ba
 - Wallet support through Wagmi native connectors
 - Injected wallet support
 - Coinbase Wallet support
+- Base offchain attribution support
+- Base onchain attribution support through Builder Code
+- TypeScript-based application code
+- Solidity contract source included in the repository
+
+## Stack
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
