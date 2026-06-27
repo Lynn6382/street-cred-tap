@@ -36,3 +36,12 @@ It is designed to be easy to read, easy to deploy, and easy to verify through Ba
 - Next.js App Router
 - TypeScript
 - Tailwind CSS
+- Wagmi
+- Viem
+- Solidity
+
+## Project Structure
+
+The main application code is built with Next.js App Router.
+
+The smart contract source is located at:
