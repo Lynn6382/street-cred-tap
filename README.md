@@ -159,3 +159,13 @@ Confirm the transaction in the wallet.
 After confirmation, the tap is recorded onchain by the deployed `StreetCredTap` contract.
 
 ## Deployment
+
+StreetCredTap is intended to be deployed with Vercel.
+
+Before deploying, make sure the contract has been deployed to Base mainnet and the production environment variables are configured.
+
+## Deployment Checklist
+
+1. Deploy `StreetCredTap.sol` to Base mainnet.
+2. Replace the `base:app_id` placeholder in `app/layout.tsx`.
+3. Set Vercel environment variables from `.env.example`.
