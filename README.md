@@ -55,3 +55,11 @@ Base attribution metadata is configured in:
 ```text
 app/layout.tsx
 ```
+
+Wagmi and related chain configuration is handled in:
+
+```text
+lib/wagmi.ts
+```
+
+## Base Attribution
