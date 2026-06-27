@@ -45,3 +45,13 @@ It is designed to be easy to read, easy to deploy, and easy to verify through Ba
 The main application code is built with Next.js App Router.
 
 The smart contract source is located at:
+
+```text
+contracts/StreetCredTap.sol
+```
+
+Base attribution metadata is configured in:
+
+```text
+app/layout.tsx
+```
