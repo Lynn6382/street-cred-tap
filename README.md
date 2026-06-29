@@ -78,3 +78,13 @@ Example:
 ```tsx
 <meta name="base:app_id" content="replace-with-base-dev-verify-value" />
 ```
+
+For onchain attribution, verify the app on `base.dev` and obtain the Builder Code.
+
+Set the Builder Code as an environment variable:
+
+```bash
+NEXT_PUBLIC_BASE_BUILDER_CODE=bc_xxxxxx
+```
+
+The app passes `dataSuffix` in `lib/wagmi.ts`.
