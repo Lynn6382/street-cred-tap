@@ -106,3 +106,14 @@ contracts/StreetCredTap.sol
 Deploy the contract to Base mainnet before using the production app.
 
 After deployment, set the contract address with:
+
+```bash
+NEXT_PUBLIC_STREET_CRED_TAP_ADDRESS=0xYourContract
+```
+
+## Environment Variables
+
+Create a local environment file from the example file:
+
+```bash
+cp .env.example .env.local
