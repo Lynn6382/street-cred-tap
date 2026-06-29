@@ -28,3 +28,13 @@ The application keeps the experience intentionally simple so the onchain flow re
 - Users pay only the required Base network gas
 - Wallet support through Wagmi native connectors
 - Injected wallet support
+- Coinbase Wallet support
+- Base offchain attribution support
+- Base onchain attribution support through Builder Code
+- TypeScript-based application code
+- Solidity contract source included in the repository
+
+## Stack
+
+- Next.js App Router
+- TypeScript
