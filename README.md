@@ -17,3 +17,14 @@ The app connects a wallet, lets the user tap a counter, and records that tap onc
 It is designed to be easy to read, easy to deploy, and easy to verify using Base attribution.
 
 The application keeps the experience intentionally simple so the onchain flow remains clear.
+
+## Features
+
+- Minimal Base Mini App experience
+- One primary onchain action: tap a counter
+- No rewards or invite mechanics
+- No leaderboards
+- No app-level usage limits
+- Users pay only the required Base network gas
+- Wallet support through Wagmi native connectors
+- Injected wallet support
