@@ -58,3 +58,13 @@ Base attribution metadata is configured in:
 ```text
 app/layout.tsx
 ```
+
+Wagmi and chain configuration are handled in:
+
+```text
+lib/wagmi.ts
+```
+
+## Base Attribution
+
+StreetCredTap supports Base attribution for both offchain and onchain activity.
