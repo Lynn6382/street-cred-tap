@@ -48,3 +48,13 @@ The application keeps the experience intentionally simple so the onchain flow re
 The main application is built with the Next.js App Router.
 
 The smart contract source is located at:
+
+```text
+contracts/StreetCredTap.sol
+```
+
+Base attribution metadata is configured in:
+
+```text
+app/layout.tsx
+```
