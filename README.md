@@ -88,3 +88,13 @@ NEXT_PUBLIC_BASE_BUILDER_CODE=bc_xxxxxx
 ```
 
 The app passes `dataSuffix` in `lib/wagmi.ts`.
+
+The app also passes `dataSuffix` explicitly in every `writeContract` call.
+
+When changing contract write interactions, keep the Builder Code suffix behavior intact so onchain attribution continues to work.
+
+When changing app metadata, keep the Base attribution metadata in place so offchain attribution continues to work.
+
+## Contract
+
+The Solidity contract source is included in the repository at:
