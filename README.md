@@ -98,3 +98,11 @@ When changing app metadata, keep the Base attribution metadata in place so offch
 ## Contract
 
 The Solidity contract source is included in the repository at:
+
+```text
+contracts/StreetCredTap.sol
+```
+
+Deploy the contract to Base mainnet before using the production app.
+
+After deployment, set the contract address with:
