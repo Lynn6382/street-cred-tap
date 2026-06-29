@@ -38,3 +38,13 @@ The application keeps the experience intentionally simple so the onchain flow re
 
 - Next.js App Router
 - TypeScript
+- Tailwind CSS
+- Wagmi
+- Viem
+- Solidity
+
+## Project Structure
+
+The main application is built with the Next.js App Router.
+
+The smart contract source is located at:
