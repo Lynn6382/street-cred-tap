@@ -7,3 +7,13 @@ There are no rewards, invite systems, leaderboards, or app-level usage limits.
 Each tap is recorded onchain, and the only required cost is the Base network gas for the transaction.
 
 Repository: https://github.com/Lynn6382/street-cred-tap.git
+
+## Overview
+
+StreetCredTap provides a direct interaction with a smart contract deployed on Base.
+
+The app connects a wallet, lets the user tap a counter, and records that tap onchain.
+
+It is designed to be easy to read, easy to deploy, and easy to verify using Base attribution.
+
+The application keeps the experience intentionally simple so the onchain flow remains clear.
